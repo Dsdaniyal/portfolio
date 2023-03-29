@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+body{
+    font-family: 'Delicious Handrawn',cursive;
+    margin: 0%;
+    padding: 0%;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    background-color: rgb(5, 5, 5);
+
+}
+.hero{
+    width:100% ;
+    height:100vh;
+    
+    /* background-image:url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614405808_30-p-temnii-fon-dlya-slaida-34.jpg); */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+.logo{
+   color: bisque;
+   font-size: 30px;
+}
+span{
+    color: crimson;
+}
+ul li{
+    display: inline-block;
+    color:bisque;
+    padding: 10px 25px;
+    font-size:20px ;
+    
+   
+}
+.btn{
+    background-color: crimson;
+    color: bisque;
+    padding:10px 20px ;
+    border-radius:20px;
+    text-decoration: none;
+    transition: 2s ;
+
+}
+.btn:hover{
+    /* transform: scale(1.2); */
+    transition: 2s;
+    background-color:bisque;
+    color: crimson;
+    
+}
+hr{
+    border:2px solid crimson;
+    margin-top: 20px;
+}
+.content{
+    position: absolute;
+    top:40% ;
+    margin-left: 8%;
+    transform: translateY((-50%));
+}
+h1{
+    color: bisque;
+    margin:20px 0px ;
+    font-size: 60px;
+}
+h3{
+    color: bisque;
+    font-size: 30px;
+    
+}
+h4{
+    color: bisque;
+    font-size: 30px;
+}
+.newsletter form{
+    width:380px ;
+    max-width: 100% ;
+    position:relative;
+}
+.newsletter form .a{
+    display: inline-block;
+    width: 400px;
+    border: 2px solid bisque;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 10px rgb(255, 4, 4);
+}
+.newsletter form .b{
+    position:absolute;
+    display: inline-block;
+    outline: none;
+    border:auto ;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: tomato;
+    color: bisque;
+    box-shadow: 0px 0px 3px 2px white ;
+    left: 350px;
+    top:3px  ;
+}
+.newsletter form .b:hover{
+    transform:scale(1); 
+    transition: 1.5s;
+    background-color:rgb(0, 0, 0)
+}
+.about {
+    width: 100%;
+    padding:10px 0;
+    /* background-color: black */
+
+
+    
+}
+.about img{
+    height: auto;
+    width: 430px;
+    border:3px solid crimson ;
+    border-radius:20px ;
+    
+}
+.about-text{
+    width: 550px ;
+    color: white;
+}
+.main{
+    width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.b{
+    margin-top: 0px;
+    
+}
+.gg{
+    display: flex;
+    align-items: center;
+}
+.our{
+  margin-top: auto;
+    height: auto;
+    color: bisque;
+    display: flex;
+    margin-left: 30%;
+}
+.q{
+    color: bisque;
+    margin-left: 150px;
+    border: 2px solid crimson;
+    width: 200px;
+ 
+    height: auto;
+}
+.w{
+color: bisque;
+    margin-left: 150px;
+    border: 2px solid crimson;
+    width: 200px;
+ 
+    height: auto;
+}
+.e{
+    color: bisque;
+    margin-left: 150px;
+    border: 2px solid crimson;
+    width: 200px;
+ 
+    height: auto;
+}
+.r{
+    display: flex;
+}
+.q-one{
+    
+    display: flex;
+    
+    background-color: crimson;
+    color: bisque;
+    padding:10px 10px ;
+    border-radius:20px;
+    text-decoration: none;
+    
+}
+.w-one{
+    display: flex;
+    align-items: flex-end;
+    background-color: crimson;
+    color: bisque;
+    padding:10px 20px ;
+    border-radius:20px;
+    text-decoration: none;
+    
+}
+.e-one{
+    display: flex;
+   
+    background-color: crimson;
+    color: bisque;
+    padding:10px 20px ;
+    border-radius:20px;
+    text-decoration: none;
+    
+}
+button{
+    background-color: crimson;
+    color: bisque;
+    padding:10px 20px ;
+    border-radius:20px;
+    transform: scale(1.2);
+    transition: 2s;
+    
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    background-color: yellowgreen;
+}
+.let{
+    margin-top: 15%;
+    color: beige;
+    margin-left: 500px;
+}
+.hire{
+    margin-left: 50px;
+    transform: scale(1.2);
+    transition: 2s;
+    
+}
+.hire:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    background-color: yellowgreen;
+}
+.foter{
+    margin-top: 20%;
+    margin-left: 25%;
+}
+.facebook{
+    color: crimson;
+}
+.instagram{
+    color: crimson;
+}
+.globe{
+    
+    color: crimson;
+}
+.icons{
+
+    margin-left: 40%;
+    display: flex;
+    margin-top: auto;
+    
+}
+.mor{
+    color: bisque;
+  margin-left: 20%;
+}
+.copy{
+    color: crimson;
+    margin-left:500px ;
+}
+.for{
+    margin-top: 0;
+}
